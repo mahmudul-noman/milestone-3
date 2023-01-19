@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+body {
+  background-color: #ddd;
+}
+h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+}
+.profile-img img {
+  position: absolute;
+  bottom: 38%;
+  left: 35%;
+  background: #ddd;
+}
+.profile-img:hover img {
+  border-color: green;
+}
+.card-body-text  {
+  padding-top: 3rem;
+}
+.top, .bottom {
+  background: linear-gradient(99.38deg, rgb(220, 2, 206) 11.03%, rgb(124, 63, 242) 66.81%, rgb(92, 83, 254) 89.78%);
+  color: #ffffff;
+  padding: 25px;
+}
+.container-bg {
+  padding: 2rem;
+}
